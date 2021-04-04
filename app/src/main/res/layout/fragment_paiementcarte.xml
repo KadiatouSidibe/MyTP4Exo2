@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_name"
+
+    android:layout_width="250dp"
+    android:layout_height="500dp"
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#B5DFDB">
+
+
+    <TextView
+
+        android:id="@+id/nomS"
+        android:layout_width="200dp"
+
+        android:layout_height="30dp"
+        android:text="Nom"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+
+        android:id="@+id/nomE"
+
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+    <TextView
+
+        android:id="@+id/prenomS"
+        android:layout_width="200dp"
+
+        android:layout_height="30dp"
+        android:text="Prenom"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+
+        android:id="@+id/prenomE"
+
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+    <TextView
+
+        android:id="@+id/numCarte"
+        android:layout_width="200dp"
+
+        android:layout_height="30dp"
+        android:text="Numero de carte"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+
+        android:id="@+id/numCarteE"
+
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+    <TextView
+
+        android:id="@+id/dateS"
+        android:layout_width="200dp"
+
+        android:layout_height="30dp"
+        android:text="Date d'expiration"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+
+        android:id="@+id/dataE"
+
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+    <TextView
+
+        android:id="@+id/codeS"
+        android:layout_width="200dp"
+
+        android:layout_height="30dp"
+        android:text="Code CVC"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+
+        android:id="@+id/codeE"
+
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        app:backgroundTint="#2A6DA3" />
+
+</LinearLayout>
